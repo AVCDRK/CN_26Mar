@@ -48,9 +48,15 @@ plot(my_pict,axes=FALSE,main="Struggling Student")
 ```{r}
 plot(weight~feed,data=OurData)
 ```
+  
+  
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(weight~feed,data=OurData)
+```
 
 ## Inferential Results
 
